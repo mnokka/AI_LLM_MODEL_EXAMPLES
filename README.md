@@ -1,16 +1,46 @@
 # AI_LLM_MODEL_EXAMPLES
-Examples using local model (llama for weak computer without GPUs)
 
-
-### Linux info
-
-Code used model starting: *ollama run llama3.2:1b*
+📚 Examples of using local LLMs (LLaMA via Ollama) on low-end computers without GPU
 
 
 
-### Examples
+## ⚙️ Tech Stack
+
+- **Language Model**: LLaMA 3.2 1B (via [Ollama](https://ollama.com/))  
+- **Hardware**: Runs locally on a Lenovo ThinkCentre M710q  
+  _(Intel Core i5-7400T, 4 cores, 25 GB RAM, no GPU)_  
+> Chosen LLM is lightweight and fast, suitable for low-end machines.
+
+---
+## 🛠️ Installation (Linux)
+
+### 1. Install Ollama
+
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+### 2. Download the model
+
+```bash
+ollama run llama3.2:1b
+```
+
+### 3. Clone the repository and install Python dependencies
+
+```bash
+git https://github.com/mnokka/AI_LLM_MODEL_EXAMPLES
+cd AI_LLM_MODEL_EXAMPLES
+pip install -r requirements.txt
+```
+
+---
 
 
- [llamaHttps.py](./llamaHttps.py) llama model used directly via Python request library. Finds info of Finnish Independece day
+# 💡 Examples
 
- [llamaLibrary.py](./llamaLibrary.py) llama model used directly via ollama Python library. Finds info of Finnish Independece day
+| File | Description |
+|------|-------------|
+| [`llamaHttps.py`](./llamaHttps.py) | Uses `requests` to interact with the local Ollama server. Example: fetches Finnish Independence Day info. |
+| [`llamaLibrary.py`](./llamaLibrary.py) | Uses the `ollama` Python library directly. Same task as above, but using the higher-level library interface. |
+
