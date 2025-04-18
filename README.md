@@ -43,5 +43,5 @@ pip install -r requirements.txt
 |------|-------------|
 | [`llamaHttps.py`](./llamaHttps.py) | Uses `requests` to interact with the local Ollama server. Example: fetches Finnish Independence Day info. |
 | [`llamaLibrary.py`](./llamaLibrary.py) | Uses the `ollama` Python library directly. Same task as above, but using the higher-level library interface. |
-| [`brochuregen.py`](./borchuregen.py) | Improved course example, includes web page summary data including data from links. Provides brochery of this web page |
-| [`borchury.py`](./llamaLibrary.py) | Same task as above, but simpler version with several development steps left into code. |
+| [`brochuregen.py`](./brochuregen.py) | Improved course example, includes web page summary data including data from links. Provides brochery of this web page |
+| [`brochure.py`](./brochure.py) | Same task as above, but simpler version with several development steps left into code. |
