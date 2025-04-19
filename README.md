@@ -45,3 +45,5 @@ pip install -r requirements.txt
 | [`llamaLibrary.py`](./llamaLibrary.py) | Uses the `ollama` Python library directly. Same task as above, but using the higher-level library interface. |
 | [`brochuregen.py`](./brochuregen.py) | Improved course example, includes web page summary data including data from links. Provides brochery of this web page |
 | [`brochure.py`](./brochure.py) | Same task as above, but simpler version with several development steps left into code. |
+| [`codeQuestion.py`](./codeQuestion.py) | Get model (local/REST version) to answer Python spesific question. Using local version |
+| [`questions.py`](./questions.py) | Ask local model a question. Usage: *python3 questions.py --question "Write C helloworld"* |
