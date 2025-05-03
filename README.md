@@ -47,3 +47,9 @@ pip install -r requirements.txt
 | [`brochure.py`](./brochure.py) | Same task as above, but simpler version with several development steps left into code. |
 | [`codeQuestion.py`](./codeQuestion.py) | Get model (local/REST version) to answer Python spesific question. Using local version |
 | [`questions.py`](./questions.py) | Ask local model a question. Usage: *python3 questions.py --question "Write C helloworld"* |
+| [`gradioLamaChatUI.py`](./gradioLamaChatUI.py) | Gradio UI with local machine chatbot. Use local URL or public URL to use from internet" |
+
+<br>
+<br>
+
+![LocalChatBot](localchatbot.png)
