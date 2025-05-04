@@ -53,3 +53,5 @@ pip install -r requirements.txt
 <br>
 
 ![LocalChatBot](localchatbot.png)
+
+| [`StreamingGradioLamaChatUI.py`](./StreamingGradioLamaChatUI.py) | Gradio UI with local machine chatbot. Use local URL or public URL to use from internet. Writes answers by streaming, a bit by bit" |
